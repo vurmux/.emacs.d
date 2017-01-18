@@ -13,6 +13,7 @@
     json-mode
     tabbar
     undo-tree
+    smart-mode-line
     )
   "Packages to install automatically")
 
