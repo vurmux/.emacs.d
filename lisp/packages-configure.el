@@ -32,9 +32,10 @@
 (require 'punumbra-mode)
 (add-hook 'prog-mode-hook 'punumbra-mode)
 
-;;(setq sml/theme 'dark)
-;;(setq sml/no-confirm-load-theme t)
-;;(sml/setup)
+(require 'smart-mode-line)
+(setq sml/no-confirm-load-theme t)
+(setq sml/theme nil)
+(sml/setup)
 
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)

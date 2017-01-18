@@ -6,3 +6,5 @@
 
 (require 'autoinstall)
 (require 'packages-configure)
+
+(set-default-font "Ubuntu Mono-12")
