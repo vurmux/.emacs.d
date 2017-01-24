@@ -57,9 +57,6 @@
     (font-lock-mode 1)
     )
 
-(add-hook 'text-mode-hook 'punumbra-mode)
-(define-globalized-minor-mode global-punumbra-mode punumbra-mode
-  (lambda () (punumbra-mode 1)))
 (provide 'punumbra-mode)
 
 ;;; punumbra-mode.el ends here
